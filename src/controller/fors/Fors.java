@@ -16,7 +16,7 @@ public class Fors {
  * @param num 
  */
     public void Collatz(int num) {
-        Utilidades u = new Utilidades();
+        
         for (int i = 0; i <= num; i++) {
             System.out.print(num + " -> ");
 

@@ -84,7 +84,6 @@ public class Switchs {
         System.out.println("2. MXN (Peso Mexicano)");
         System.out.println("3. GBP (Libra Esterlina)");
         System.out.println("4. JPY (Yen Japonés)");
-
         int opcion = sc.nextInt();
         switch (opcion) {
             case 1:

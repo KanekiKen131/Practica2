@@ -40,9 +40,9 @@ public class MainPractica2 {
                 }
                 case 2: {
                     System.out.println("Simulacion de prestamo bancario ");
-                    Integer opcion = 1;
+                    Integer opcion = 2;
                     if (Practica2.AMORTIZACION_ANUAL == opcion) {
-                        System.out.println("La amortizacion anual es " + p.calAmortizacionAnual(1000.0f,
+                        System.out.println("La amortizacion anual es " + p.calAmortizacionAnual(1400.0f,
                                 PrestamoEnum.TIPO_PERSONAL.getInteres(), 5f));
 
                     } else if (Practica2.CUOTA_MENSUAL == opcion) {
@@ -58,15 +58,14 @@ public class MainPractica2 {
                     int parcelas = sc.nextInt();
                     int totalDiario = 0;
                     for (int i = 1; i <= parcelas; i++) {
-                        totalDiario += p.riegoCultivo(parcelas);
-                    }
+                        totalDiario += p.riegoCultivo(parcelas); }
                     System.out.println("Tiempo total de riego en todas las parcelas: " + totalDiario + " horas");
                     break;
                 }
 
                 case 4: {
                     System.out.println("Calculador de costo de llamadas telefonicas ");
-                    Float costo = p.llamadasTelefonicas(5, 18);
+                    Float costo = p.llamadasTelefonicas(5, 31);
                     if (costo > 0) {
                         System.out.println("Tiene que pagar " + costo + " dolares");
                     } else {

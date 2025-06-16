@@ -14,9 +14,7 @@ public enum PrestamoEnum {
     private Float interes;
     private PrestamoEnum (Float interes){
         this.interes = interes;
-        
     }
-
     public Float getInteres() {
         return interes;
     }

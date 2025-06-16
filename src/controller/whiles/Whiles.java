@@ -22,7 +22,6 @@ public class Whiles {
             reverso = reverso * 10 + digit;
             n = n / 10;
         }
-
         if (num == reverso) {
             System.out.println(num + " es un número palíndromo.");
             return true;   

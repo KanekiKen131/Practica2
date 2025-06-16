@@ -57,7 +57,7 @@ public class Practica2 {
             }
         }
         if (!permisoConcedido) {
-            System.out.println("Se alcanzo el limite de intetos...");
+            System.out.println("Se alcanzo el limite de intentos...");
         }
         System.out.println("Ha terminado el registro....");
     }
